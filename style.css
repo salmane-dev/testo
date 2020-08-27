@@ -292,6 +292,7 @@ letter-spacing: 2px;
 .sec{
     flex: .3;  
     min-width: 350px;
+    z-index: 3;
 }
 
 .sec div{
@@ -355,7 +356,7 @@ line-height: 30px;
     right: -10px; 
     opacity: .1;
     transform: rotate(-10deg) scale(2.4 );
-    
+    z-index: -1;
 }
 
 .bottom{
