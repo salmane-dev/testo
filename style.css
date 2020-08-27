@@ -1,0 +1,428 @@
+
+html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+ 
+.mycontainer{
+    display: flex;   
+    justify-content: space-between;
+    margin: 15px 33px 0 33px;
+}
+
+.menu1, .menu2{ 
+     float: right;
+}
+
+.mycontainer ul{
+     display: inline-flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.mycontainer ul li{
+     text-decoration-line: none;
+     margin-left:  50px ;
+}
+.mycontainer ul li a{
+    text-decoration-line: none; 
+    color: rgb(58, 58, 58);
+}
+
+.menu1 ul li { 
+    margin: 0;
+}
+.menu1 ul li a, .bg-yellow{ 
+     font-size: 12px;
+     font-weight: 600;
+     text-decoration-line: none;
+     background: #ffd800!important;
+     padding: 3px 15px;
+     margin: 0;
+}
+.yellow{
+    color: #ffd704!important;
+}
+
+.menu1 ul li:nth-child(3) a, .bg-green{
+    background:#00cda9!important;
+}
+  .green{
+    color:#00cda9!important;
+}
+
+li a{ 
+    font-size: 15px;
+    text-decoration-line: none;
+}
+
+.menu2 ul li:nth-child(1) a{
+    color:#f4776f;
+}
+
+.menu2{
+    margin-top: 10px;
+}
+
+.sub-menu{
+    background: #eaeaea;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: -10px;
+}
+
+.sub-menu input, select {
+    margin: 7px -2px;
+    padding: 10px;
+    border: 1px #dcdcdc solid;
+    border-right: hidden;
+    min-width: 150px;
+    color: rgb(80, 80, 80);
+    font-weight: 600;
+    background: white;
+}
+
+.sub-menu select{
+    padding: 9px;
+}
+
+.sub-menu option{
+    padding: 12px;
+    margin: 10px; 
+    font-size: 15px; 
+}
+
+ 
+.sub-menu .submit, .submit{
+    padding: 10px 24px;
+    background-color: #00cda9;
+    color: #fff;
+}
+.sub-menu a{
+    font-size: 14px;
+    padding: 10px;
+    font-weight: 600;
+    color:darkblue ;
+    text-decoration: none;
+}
+
+
+input[type="date"]::before { 
+    content: attr(data-placeholder);
+    width: 100%;
+}
+ 
+input[type="date"]:focus::before,
+input[type="date"]:valid::before { display: none }
+
+
+.sry{
+    padding:7.5px 10px !important ;
+    width: 170px;
+}
+
+
+
+
+/***************/
+ 
+
+.main {
+    background: url(pic1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    margin: 0;
+}
+
+.main div {
+   position: relative;
+   top: 45%;
+
+}
+.main a {
+color:#fff;
+text-decoration: none;
+letter-spacing: 2px;
+}
+
+.main h2 {
+    margin: 10px;
+    color: #fff;
+    word-spacing:10px;
+    letter-spacing: 5px;
+    font-size: xx-large;
+}
+.main a{
+    margin: 2px 10px;
+    padding: 7px 25px;
+    background:#00cda9;
+    color: #fff;
+    border:1px rgb(151, 151, 151) solid;
+    border-radius: 50px;
+    word-spacing:10px;
+}
+
+/************/
+
+
+.section, .title{
+    display: flex;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.section > div {
+    width: 50%;
+    min-width: 330px;
+    /*max-height: 80vh;*/
+    height: auto;  
+}
+.picture img{
+    width: 100%; 
+    height: 100%; 
+}
+.section div.content  .mybox {
+    width: 70%;
+    margin: 30px auto; 
+}
+.section div.content p{
+    margin: 1px  0 25px 0  ;
+    color: dimgrey;
+    font-size: 14px;
+}
+ .content .mybox span{ 
+    font-size: 26px;
+    font-weight: 800;
+    margin: 10px;
+    color: #524b8e;
+    width: 60%;
+}
+
+.content .mybox i{  
+    margin-left: 0;
+    background-color: #524b8e;
+    padding: 15px 22px;
+    border-radius: 50px;
+    color: #fff; 
+    height: fit-content;
+    align-self: center;
+}
+.roundy{
+    padding: 15px !important;
+
+}
+
+ div.content > div > div:nth-child(3) i {
+     background-color: #f8694a;
+ }
+ 
+ div.content > div > div:nth-child(3) span {
+   color: #f8694a;
+}
+
+ div:nth-child(5) > div.content > div > div  > i{
+    padding: 18px 19px;
+}
+
+
+/******************/
+
+.call-to-action{
+    display: flex;
+    min-height: 70px;
+    background-color:#ffd800 ;
+    padding: 10px 0;
+}
+
+.call-to-action   div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 96%;
+    min-width: 490px;
+    margin: 0 auto;
+}
+
+.call-to-action .text {
+    word-spacing: 2px;
+    align-self: center;
+    padding: 2px 20px;
+    font-size: 25px;
+    font-weight: 500;
+    flex: .6;
+    
+}
+
+.call-to-action .text span{
+     color: #00cda9;
+    font-weight: 600;
+    word-spacing: 5px;
+     margin-right: 5px;
+}
+
+.call-to-action .forma {
+    min-width: 350px;
+    align-self: center;
+    flex: .3;
+ }
+
+ 
+
+.call-to-action .forma input {
+   border: none;
+   margin: -2px;
+ }
+
+ .call-to-action .sub-menu .mailo{
+    width: 225px;
+ }
+
+ footer {
+    padding: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    background-color: #524b8e;
+    min-height: 35vh;
+}
+
+.sec{
+    flex: .3;  
+    min-width: 350px;
+}
+
+.sec div{
+    width:60%;
+    margin: 0 auto; 
+}
+
+.sec1{
+    flex: .6;
+    color: rgb(255, 255, 255);
+}
+.sec h4{
+    font-weight: 500;
+    color: white;
+    margin-bottom: 24px;
+}
+
+.sec  i{  
+    padding: 8px 11px;
+    color: #00cda9;
+    border: 1px #00cda9 solid;
+    border-radius: 50px;  
+    width: 10px ; 
+    margin-right: 5px;
+}
+
+.sec ul{
+    list-style-type: none; 
+    padding: 0;
+}
+.sec ul li a{
+color: rgba(209, 209, 209, 0.938);
+line-height: 30px; 
+}
+
+ div.sec.sec3 > ul > li:nth-child(1){
+    display: flex; 
+    line-height: 35px;
+}
+ 
+.sec3 i{
+    border: 0;
+    border: 0; 
+ }
+
+ .sec3 span p{
+     
+ padding: 0;
+ font-size: 13px;
+ margin: 0;
+ color: rgba(209, 209, 209, 0.938);
+}
+
+.sec3 span{
+    line-height: 10px;
+}
+
+ .water {
+    position: relative;
+    top: -60px;
+    right: -10px; 
+    opacity: .1;
+    transform: rotate(-10deg) scale(2.4 );
+    
+}
+
+.bottom{
+    background: #463f82;
+    display: flex;
+    padding: 10px 50px;
+    color: rgba(209, 209, 209, 0.938);
+    font-size: 12px;
+}
+
+.bottom .bom:nth-child(1){
+    flex: .1;
+}
+ 
+ 
+
+.picture.phone, .phone-menu{
+    display: none;
+}
+
+@media (max-width: 900px){
+
+    .menus{
+        display: none;
+    }
+    .phone-menu{
+        display: block;
+    }
+
+    .mycontainer ul {
+        display: block; 
+    }
+
+    .sec {
+        text-align: center;
+        margin: 30px auto;
+    }
+
+    .sec div{
+        width: 88%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    div.sec.sec3 > ul > li:nth-child(1) {
+        display: flex;
+        line-height: 35px;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 670px){
+    .section > div {
+        
+            width: 100%;
+            margin: auto;  
+        } 
+
+        body > div:nth-child(5) > div:nth-child(3){
+             display: none;
+        }
+
+        .picture.phone{
+            display: block;
+        }
+        
+        
+
+}
