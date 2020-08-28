@@ -242,6 +242,7 @@ letter-spacing: 2px;
     display: flex;
     flex-wrap: wrap;
     width: 96%;
+    align-items: center;
     min-width: 350px;
     margin: 0 auto;
 }
@@ -253,6 +254,7 @@ letter-spacing: 2px;
     font-size: 25px;
     font-weight: 500;
     flex: .6;
+    margin: 0 auto;
     
 }
 
@@ -264,20 +266,24 @@ letter-spacing: 2px;
 }
 
 .call-to-action .forma {
-    min-width: 350px;
-    align-self: center;
-    flex: .3;
+    min-width: 350px; 
+    flex: .3; 
  }
 
+.call-to-action .forma form{
+    margin: 10px auto;
+}
  
 
 .call-to-action .forma input {
-   border: none;
-   margin: -2px;
+    border: none;
+    text-align: start;
+    margin: -2px; 
  }
 
- .call-to-action .sub-menu .mailo{
+ .call-to-action .forma .mailo{
     width: 225px;
+    background: #fff;
  }
 
  footer {
@@ -426,6 +432,11 @@ line-height: 30px;
         footer {
             padding: 5px;
         }
+
+        .mycontainer {
+            margin: 15px 20px 0 0px;
+        }
+
 
 }
 
