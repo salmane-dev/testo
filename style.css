@@ -125,8 +125,6 @@ input[type="date"]:valid::before { display: none }
 }
 
 
-
-
 /***************/
  
 
@@ -134,7 +132,7 @@ input[type="date"]:valid::before { display: none }
     background: url(https://raw.githubusercontent.com/salmane-dev/testo/master/pic1.jpg);
     background-size: cover;
     width: 100%;
-    height: 70vh;
+    height: 75vh;
     text-align: center;
     margin: 0;
 }
@@ -187,13 +185,14 @@ letter-spacing: 2px;
     height: 100%; 
 }
 .section div.content  .mybox {
-    width: 70%;
+    width: 80%;
     margin: 30px auto; 
 }
 .section div.content p{
     margin: 1px  0 25px 0  ;
     color: dimgrey;
     font-size: 14px;
+    text-align: justify;
 }
  .content .mybox span{ 
     font-size: 26px;
@@ -239,11 +238,11 @@ letter-spacing: 2px;
     padding: 10px 0;
 }
 
-.call-to-action   div{
+.call-to-action div{
     display: flex;
     flex-wrap: wrap;
     width: 96%;
-    min-width: 490px;
+    min-width: 350px;
     margin: 0 auto;
 }
 
@@ -282,7 +281,7 @@ letter-spacing: 2px;
  }
 
  footer {
-    padding: 50px;
+    padding: 40px;
     display: flex;
     flex-flow: row wrap;
     background-color: #524b8e;
@@ -423,7 +422,18 @@ line-height: 30px;
         .picture.phone{
             display: block;
         }
-        
-        
 
+        footer {
+            padding: 5px;
+        }
+
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
 }

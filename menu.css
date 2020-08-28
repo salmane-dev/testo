@@ -20,9 +20,9 @@
    MENU STYLES */
   .menu-wrap {
     display: none;
-    position: fixed;
+    position: relative;
     top: 0;
-    right: 100px;
+    right: 40px;
     z-index: 1111;
   }
   
