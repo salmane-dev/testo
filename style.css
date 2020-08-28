@@ -4,6 +4,7 @@ html, body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
  
 .mycontainer{
@@ -243,7 +244,7 @@ letter-spacing: 2px;
     flex-wrap: wrap;
     width: 96%;
     align-items: center;
-    min-width: 350px;
+    min-width: 320px;
     margin: 0 auto;
 }
 
@@ -266,7 +267,7 @@ letter-spacing: 2px;
 }
 
 .call-to-action .forma {
-    min-width: 350px; 
+    min-width: 320px; 
     flex: .3; 
  }
 
@@ -282,7 +283,7 @@ letter-spacing: 2px;
  }
 
  .call-to-action .forma .mailo{
-    width: 225px;
+    width: 180px;
     background: #fff;
  }
 
@@ -353,6 +354,7 @@ line-height: 30px;
 
 .sec3 span{
     line-height: 10px;
+    text-align: start;
 }
 
  .water {
@@ -436,15 +438,17 @@ line-height: 30px;
         .mycontainer {
             margin: 15px 20px 0 0px;
         }
+        .sec { 
+            min-width: 235px; 
+        }
 
+        .bottom {
+            padding: 10px 20px; 
+        }
 
 }
 
 html,body
 {
-    width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
     overflow-x: hidden; 
 }
