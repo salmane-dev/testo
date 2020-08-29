@@ -1,3 +1,42 @@
+
+<!-->HTML</-->
+ 
+<form id="forma" method="post">
+	<label>Total:</label><input type="number" name="total" required><br>
+	<label>Baseline:</label><input type="number" name="baseline" min="0" max="100" required><br>
+	<label>Start Date:</label> <input type="date" name="start" required><br>
+	<label>End Date:</label> <input type="date" name="end" required><br>
+	<label></label> <input type="submit"><br>
+</form> 
+
+
+<div id="result"></div>
+ 
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#forma').submit(function(e) {
+        e.preventDefault();
+        $.ajax({
+            type: "POST",
+            url: 'test.php',
+            data: $(this).serialize(),
+            success: function(response)
+            {
+            //console.log(JSON.stringify(response));
+            document.querySelector("#result").innerHTML = JSON.stringify(response);
+           }
+       });
+     });
+});
+</script>
+
+
+
+
+
+
+<!-->PHP</-->
+
 <?php
 
 //to see how many days are there
