@@ -122,7 +122,7 @@ function dist_amount_randomly($amount, $baseline, $start_date, $end_date){
 
 
 
-// declaire.
+//some parsing and security stuff.
 $total = $baseline = $start = $end = "";
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -132,7 +132,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   $end = test_input($_POST["end"]); 
 }
 
-//some security stuff
 function test_input($data) {
   $data = trim($data);
   $data = stripslashes($data);
